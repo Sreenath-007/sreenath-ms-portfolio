@@ -12,7 +12,7 @@ async function fetchTechNews() {
                 <div class="card"><div class="card-body">
                 <h5>${article.title}</h5>
                 <p>${article.summary}</p>
-                <a href="${article.url}" target="_blank">Read more</a>
+                <a href="${article.url}" target="_blank" rel="noopener noreferrer">Read more</a>
                 </div></div>`;
             container.appendChild(div);
         });

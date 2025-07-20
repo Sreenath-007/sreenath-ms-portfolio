@@ -59,7 +59,6 @@ footer {
   box-shadow: 0 8px 24px rgba(0,0,0,0.15);
 }
 
-
 .card-img-top {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
@@ -108,4 +107,3 @@ footer {
 .card.h-100 {
   flex: 1;
 }
-
