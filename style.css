@@ -107,3 +107,32 @@ footer {
 .card.h-100 {
   flex: 1;
 }
+
+/* Make news cards more readable */
+#news-container .card {
+  background: rgba(255,255,255,0.92) !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10) !important;
+  border-radius: 16px !important;
+  margin-bottom: 24px !important;
+}
+
+#news-container .card-body {
+  color: #222 !important;
+  font-size: 1.08rem !important;
+  line-height: 1.6 !important;
+  padding: 1.5rem !important;
+}
+
+#news-container h5 {
+  color: #0d6efd !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.75rem !important;
+  text-shadow: none !important;
+}
+
+#news-container a {
+  color: #0d6efd !important;
+  font-weight: 500 !important;
+  text-decoration: underline !important;
+}
